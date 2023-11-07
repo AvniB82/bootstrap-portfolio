@@ -77,7 +77,7 @@ body {
 
     /* Work Section */
     .container-work {
-        height: flex;
+        height: px;
         height: auto;
         width: 100%;
     }
@@ -94,8 +94,38 @@ body {
 
     .col-work-row2 {
         width: 78%;
-        padding-top: 5px;
+
     }
 
     /* Contact Section */
 
+    .contact {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .card-body-contact {
+        text-align: center;
+    }
+    
+    #copy-rights {
+        text-align: center;
+        background-color: grey;
+        margin-top: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+
+    .col-contact {
+        width: 25%;
+    }
+
+    .card {
+        transition: background-color 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+        background-color: white; /* Change to the color you want for the glow effect */
+        box-shadow: 0 0 10px aqua;
+    }
