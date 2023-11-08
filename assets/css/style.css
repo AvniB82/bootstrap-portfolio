@@ -77,7 +77,6 @@ body {
 
     /* Work Section */
     .container-work {
-        height: px;
         height: auto;
         width: 100%;
     }
@@ -96,6 +95,10 @@ body {
         width: 78%;
     }
 
+    .card-img {
+        height: 450px;
+    }
+
     /* Contact Section */
     .contact {
         padding-top: 30px;
@@ -111,10 +114,7 @@ body {
         width: 25%;
     }
 
-    .card-image {
-        height: 200px;
-    }
-
+    /* hover card affect */
     .card {
         transition: background-color 0.3s, box-shadow 0.3s;
     }
