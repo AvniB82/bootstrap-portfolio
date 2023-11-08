@@ -98,7 +98,6 @@ body {
     }
 
     /* Contact Section */
-
     .contact {
         padding-top: 30px;
         padding-bottom: 20px;
@@ -109,15 +108,6 @@ body {
         text-align: center;
     }
 
-    #copy-rights {
-        text-align: center;
-        background-color: grey;
-        margin-top: 15px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-
-    }
-
     .col-contact {
         width: 25%;
     }
@@ -126,6 +116,14 @@ body {
         transition: background-color 0.3s, box-shadow 0.3s;
     }
     .card:hover {
-        background-color: white; /* Change to the color you want for the glow effect */
+        background-color: white;
         box-shadow: 0 0 10px aqua;
+    }
+
+    .copy-rights {
+        text-align: center;
+        background-color: grey;
+        margin-top: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
