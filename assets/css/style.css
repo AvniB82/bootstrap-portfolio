@@ -97,14 +97,18 @@ body {
     }
 
     .card-img {
-        height: 450px;
+        height: 400px;
     }
 
     /* Contact Section */
-    .contact {
-        padding-top: 30px;
-        padding-bottom: 20px;
-        text-align: center;
+    .container-work {
+        height: auto;
+        width: 100%;
+    }
+
+    .col-contact {
+        width: 20%;
+        text-align: right;
     }
 
     .card-body-contact {
@@ -112,9 +116,8 @@ body {
     }
 
     .col-contact {
-        width: 25%;
+        width: 20%;
     }
-
     /* hover card affect */
     .card {
         transition: background-color 0.3s, box-shadow 0.3s;
